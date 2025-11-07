@@ -1,10 +1,11 @@
-<img width="1920" height="3211" alt="screencapture-localhost-5173-2025-11-07-13_50_40" src="https://github.com/user-attachments/assets/598d5e99-544e-471d-9671-3fe86194d61e" /># Flow-Board
+# Flow-Board
 
 **Hayat maratonunda hızlanmaya değil, akıllı bir düzene ihtiyacın var.**
 
 Flow-Board, kişisel görevlerinizi yönetmek, organize olmak ve hedeflerinize ulaşmak için tasarlanmış minimalist ve güçlü bir Kanban aracıdır. Kaos yerine akışı, acele yerine düzeni hedefler.
 
 ![Flow-Board]([<img width="1920" height="3211" alt="flow-board-web" src="https://github.com/user-attachments/assets/76de34a3-6acd-4790-950e-03bb0be88d7c" />])
+
 ![Flow-Board]([<img width="2490" height="1320" alt="board-web" src="https://github.com/user-attachments/assets/80c55cea-357f-4001-b802-a2ad69ad8b9a" />])
 
 ---
@@ -77,4 +78,5 @@ npm start
 | Instagram | LinkedIn | GitHub |
 | --- | --- | --- |
 | [@hife.init](https://instagram.com/hife.init/) | [Profil](https://linkedin.com/in/hanifekaptan) | [Flow-Board Repo](https://github.com/hanifekaptan/Flow-Board) |
+
 
