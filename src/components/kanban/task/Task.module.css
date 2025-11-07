@@ -1,0 +1,70 @@
+.taskCard {
+  background-color: white;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0px 6px 20px rgba(56, 56, 56, 0.1); 
+  border-left: 25px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.taskCard:hover {
+  box-shadow: 0px 8px 25px rgba(56, 56, 56, 0.15);
+}
+
+.backlog { border-left-color: #2F80ED; }
+.inProgress { border-left-color: #27AE60; }
+.done { border-left-color: #F2994A; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerText {
+  font-size: 12px;
+  color: #BDBDBD;
+}
+
+.title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #0D062D;
+}
+.description {
+  font-size: 0.8rem;
+  color: #828282;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.tagsContainer {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.actionsMenu {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.taskCard:hover .actionsMenu {
+  opacity: 1;
+}
+
+.actionButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #828282;
+  font-size: 20px;
+}
+

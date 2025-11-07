@@ -1,0 +1,96 @@
+.howItWorkSection {
+  padding: 100px 20px;
+  background-color: #f4f5f7;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #172b4d;
+  margin-bottom: 130px;
+}
+
+.stepsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px; 
+  max-width: 1280px; 
+  margin: 0 auto;
+}
+
+.stepCard {
+  background: #ffffff;
+  padding: 20px 25px 40px 25px; 
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08); 
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stepCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.iconContainer {
+  margin-top: -80px;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 25px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cardTitle {
+  margin-top: 10px; 
+  font-size: 1.5rem;
+  font-weight: 700; 
+  color: #172b4d;
+  margin-bottom: 10px;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  color: #5e6c84;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .howItWorkSection {
+    padding: 60px 15px;
+  }
+  
+  .sectionTitle {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+  }
+
+  .stepCard {
+    padding: 30px 20px;
+  }
+
+  .iconContainer {
+    width: 90px;
+    height: 90px;
+    margin-top: -45px; 
+    margin-bottom: 20px;
+  }
+  
+  .imageIcon {
+    width: 100%;
+    height: 100%;
+  }
+}

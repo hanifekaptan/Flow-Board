@@ -1,0 +1,29 @@
+.column {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.titleWrapper {
+  padding: 0 8px 0px 8px;
+  position: relative;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #0d0531;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.cardList {
+  overflow-y: auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 15px;
+}

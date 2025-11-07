@@ -1,0 +1,30 @@
+.tagStyle {
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.tag {
+  background-color: #E0E0E0;
+  color: #333333;
+}
+
+.priority {
+  color: #333;
+}
+
+.high {
+  background-color: #FDECEC;
+  color: #EB5757;
+}
+
+.medium {
+  background-color: #f9efe2;
+  color: #F2994A;
+}
+
+.low {
+  background-color: #EAF5ED;
+  color: #219653;
+}
